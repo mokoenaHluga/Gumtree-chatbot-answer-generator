@@ -1,0 +1,126 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hey", "How are you", "helo",
+        "Hi", "Awe", "Hello", "Good day", "Sho"
+      ],
+      "responses": [
+        "Hey", "Hello, thanks for using our platform, how may i help you?",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "account1",
+      "patterns": ["My Ads page not loading - Chrome", "Error loading page", "Login Issues"],
+      "responses": ["Disable any adblockers you have installed on your current web browser.\nPerform a cache clear – please make sure to select the option to remove “Cookies and other site data” .The steps to perform a cache clear can be found here.\nManually remove the .html text from https://www.gumtree.co.za/my/ads.html.\nUse an alternative web browser (Firefox or Microsoft Edge)"]
+    },
+    {
+      "tag": "account2",
+      "patterns": ["I Forgot My Password - Can You Reset It?", "Reset password", "Forgot Password"],
+      "responses": [
+        "If you forgot your password, click the \"Forgot your password?\" link on the sign in page to have your password emailed to you."
+      ]
+    },
+    {
+      "tag": "account3",
+      "patterns": ["How Do I Change My Email Address?", "Change My Email Address"],
+      "responses": [
+        "For security reasons, please contact our support team who will be able to assist in changing the email address associated with your Gumtree account."
+      ]
+    },
+    {
+      "tag": "YourAds1",
+      "patterns": ["Not receiving replies", "No replies for ads"],
+      "responses": [
+        "If you are not receiving any replies to your ads, you can try the following:\nIf you are using the Gumtree website from a work environment, please make sure that your firewall settings allow messages sent through Gumtree\nCheck your spam/trash folders for any replies\nIf you are still experiencing problems after trying the above, type - TALK TO AGENT"
+      ]
+    },
+    {
+      "tag": "YourAds2",
+      "patterns": ["Why Have I Not Received a Posting Confirmation Email?", "Posting confirmation"],
+      "responses": [
+        "If you haven't received a posting confirmation email, please check any \"Spam\" or \"Junk\" email folders to see if it was sent there.\nEnsure that southafrica@gumtree.co.za and noreply@gumtree.co.za is added to your email \"safe list\".\nEnsure that you're posting from a local area connection, and not whilst connected to a VPN or proxy network"
+      ]
+    },
+    {
+      "tag": "YourAds3",
+      "patterns": ["General Posting Issues"],
+      "responses": [
+        "Before retrying to upload your ad, make sure you clear all your browser saved data",
+        "Try an alternative web browser and see if the problem persists",
+        "Make sure your pop-up blocker is switched off ",
+        "Check that you don’t have any additional web browser extensions that may be causing issues (e.g Ad blockers) running in your web browser",
+        "Enable your web browser's cookies"
+      ]
+    },
+    {
+      "tag": "YourAds4",
+      "patterns": ["How Can I Include Images in My Ad?", "Post images", "Listing with images"],
+      "responses": [
+        "On the posting or editing page, you should see a section called \"Pictures\" (right below the description box).\nClick on one of the picture frames to upload images.\nSelect a picture file from your computer's hard disk and click \"OK\". The picture will then be uploaded and attached to your ad.You can upload multiple images with one action by holding down CTRL when selecting your images from your computer.",
+        "You can add up to 12 pictures from the Gumtree desktop website and 8 images from the iOS/Android app. Remember a good picture is worth a thousand words, so including one or more with your Ad will increase your chance of getting several replies. (It's recommended that you avoid using web/stock/copyright images to represent your goods)."
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": ["Talk to support"],
+      "responses": [
+        "Our agents are all busy, You will be directed to one when they become available",
+        "Your chatting to Stacey, How may i help you"
+      ]
+    },
+    {
+      "tag": "SiteUsability2",
+      "patterns": ["How Do I Suggest a New City Be Added to Gumtree?", "Add new city"],
+      "responses": [
+        "To ask that a new Gumtree site be offered for your city, please reach out to us at our helpdesk, select a topic and click on the \"I need to contact support\" link located at the bottom of our help pages and create a case.\n \nWe create Gumtree sites based on demand from the community. In the meantime, we encourage you to use Gumtree in the city nearest to you."
+      ]
+    },
+    {
+      "tag": "SiteUsability3",
+      "patterns": ["How to register an account", "Create a new profile", "Create an account"],
+      "responses": [
+        "Registering is easy and only takes a few steps. 1. Enter your email address you want to register. 2. Create a password. 3. Enter a Profile name so that users can identify you. 4. Check your email inbox for the confirmation email. 5. Login and begin your Gumtree journey!"
+      ]
+    },
+    {
+      "tag": "SiteUsability4",
+      "patterns": ["How to post an advert", "Create listing", "How to advertise", "Add new advert"],
+      "responses": [
+        "Posting an ad on Gumtree is totally free and it couldn’t be easier thanks to this handy step-by-step guide. 1: Enter your Ad title, make it specific to give buyer a clear indication as to what you are selling. 2: Select the most appropriate category for your item. 3: Add your images. You can add up to 12 images!. 4: Complete all the necessary fields to make your ad more descriptive. "
+      ]
+    },
+    {
+      "tag": "SiteUsability5",
+      "patterns": ["Selecting Your Location When Posting an Ad", "Listing location", "Posting aAd with location"],
+      "responses": [
+        "You can use our location selector to select the area closest to your location. Once you select a province option, you will be given town options to choose from:",
+        "A second selection option is to use your GPS location to determine where to post your ad. Make sure you Location is enable on your device"
+      ]
+    },
+    {
+      "tag": "SiteUsability6",
+      "patterns": ["How to Manage Your Cookies on Gumtree", "Manage cookies", "Cookies on gumtree"],
+      "responses": [
+        "When you visit or interact with our sites, services, applications, tools or messaging, we or our authorised service providers may use cookies, web beacons, and other similar technologies for storing information to help provide you with a better, faster, and safer experience and for advertising purposes. For more information on Gumtree’s Cookie Policy, please click here. \n\nWe understand that you may want to manage the level of cookie information that is stored on your device, and so we created this page to help you do so. (Please note: the links below will take you to external websites, and the terms and conditions and privacy policies of those websites’ owners, not Gumtree, will govern your use of those sites.). "
+      ]
+    }
+  ]
+}
